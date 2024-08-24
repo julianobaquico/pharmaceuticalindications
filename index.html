@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicação de Dor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encontre o Relevo para sua Dor</h1>
+        <div class="select-container">
+            <label for="categoria">Selecione a Categoria da Dor:</label>
+            <select id="categoria">
+                <option value="">Selecione...</option>
+                <option value="dor-de-cabeca-enxaqueca">Dor de Cabeça e Enxaqueca</option>
+                <option value="colica">Cólica</option>
+                <option value="contusao">Contusão</option>
+                <option value="anti-inflamatorio">Anti-inflamatório</option>
+            </select>
+        </div>
+        <div class="select-container">
+            <label for="subcategoria">Selecione a Subcategoria:</label>
+            <select id="subcategoria">
+                <option value="">Selecione...</option>
+            </select>
+        </div>
+        <div class="info-container">
+            <h2>Principais Princípios Ativos:</h2>
+            <ul id="ativos"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
